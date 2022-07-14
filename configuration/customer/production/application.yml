@@ -8,6 +8,6 @@ customer:
     driver-class-name: 'com.mysql.jdbc.Driver'
     jpa:
       database: mysql
-      show-sql: 'true'
+      show-sql: true
       hibernate:
         ddl-auto: update
