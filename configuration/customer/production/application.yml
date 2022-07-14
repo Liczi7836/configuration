@@ -6,8 +6,8 @@ customer:
     username: 'root'
     password: 'Plemiona123!'
     driver-class-name: 'com.mysql.jdbc.Driver'
-    jpa:
-      database: mysql
-      show-sql: 'true'
-      hibernate:
-        ddl-auto: update
+  jpa:
+    database: mysql
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: update
